@@ -1,0 +1,23 @@
+extends layout.pug
+
+
+block content 
+
+    .create 
+        form.form(action="/create", method="POST")  
+            label.label Name 
+            input.input(type="text", name="Name")
+
+            label.label Number  
+            input.input(type="number", name="number")
+
+            label.label Seria  
+            input.input(type="number", name="Seria")
+
+            label.label email  
+            input.input(type="email", name="email")
+
+            label.label expiration_date 
+            input.input(type="datetime", name="expiration_date")
+            
+            button.button Add New Medicine

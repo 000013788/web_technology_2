@@ -1,0 +1,30 @@
+extends layout.pug 
+
+block content
+
+    if created 
+        p medicine created  
+
+    .info.flex  
+        .list 
+            if medicine 
+                each medicines in medicine 
+                    a(href = medicines.id) #{medicines.Name}
+            a(href = "#") Anzibel
+            a(href = "#") Analgen 
+            a(href = "#") Pentalgen
+            a(href = "#") Ibufen 
+            a(href = "#") Lactel 
+            a(href = "#") Enap 
+            a(href = "#") Renaksil 
+            a(href = "#") Deksametazon  
+
+        .detail 
+            h3 Anzibel 
+
+            p India 
+            p AnzibelIndia@gmail.com 
+            p Hindiston, 25
+            p 132322
+
+    
