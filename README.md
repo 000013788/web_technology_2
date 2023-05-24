@@ -6,4 +6,5 @@ This medicine database web application was created for providing some necessary 
 The app allows users to add a new medicine in the list to make it visible to the clients, make related changes to the data in the list and also it is possible to remove certain information from the list.
 
 Below is a link of the project to github:
+https://github.com/000013788/web_technology_2.git
 
